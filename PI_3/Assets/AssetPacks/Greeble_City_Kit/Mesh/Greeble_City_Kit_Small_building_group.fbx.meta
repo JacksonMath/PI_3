@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 023f1305313da95438a9224aaf27c3db
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Small_building_1
+    100004: Small_building_10
+    100006: Small_building_11
+    100008: Small_building_12
+    100010: Small_building_13
+    100012: Small_building_14
+    100014: Small_building_15
+    100016: Small_building_16
+    100018: Small_building_17
+    100020: Small_building_2
+    100022: Small_building_3
+    100024: Small_building_4
+    100026: Small_building_5
+    100028: Small_building_6
+    100030: Small_building_7
+    100032: Small_building_8
+    100034: Small_building_9
+    400000: //RootNode
+    400002: Small_building_1
+    400004: Small_building_10
+    400006: Small_building_11
+    400008: Small_building_12
+    400010: Small_building_13
+    400012: Small_building_14
+    400014: Small_building_15
+    400016: Small_building_16
+    400018: Small_building_17
+    400020: Small_building_2
+    400022: Small_building_3
+    400024: Small_building_4
+    400026: Small_building_5
+    400028: Small_building_6
+    400030: Small_building_7
+    400032: Small_building_8
+    400034: Small_building_9
+    2100000: Greeble_small_mat
+    2300000: Small_building_1
+    2300002: Small_building_10
+    2300004: Small_building_11
+    2300006: Small_building_12
+    2300008: Small_building_13
+    2300010: Small_building_14
+    2300012: Small_building_15
+    2300014: Small_building_16
+    2300016: Small_building_17
+    2300018: Small_building_2
+    2300020: Small_building_3
+    2300022: Small_building_4
+    2300024: Small_building_5
+    2300026: Small_building_6
+    2300028: Small_building_7
+    2300030: Small_building_8
+    2300032: Small_building_9
+    3300000: Small_building_1
+    3300002: Small_building_10
+    3300004: Small_building_11
+    3300006: Small_building_12
+    3300008: Small_building_13
+    3300010: Small_building_14
+    3300012: Small_building_15
+    3300014: Small_building_16
+    3300016: Small_building_17
+    3300018: Small_building_2
+    3300020: Small_building_3
+    3300022: Small_building_4
+    3300024: Small_building_5
+    3300026: Small_building_6
+    3300028: Small_building_7
+    3300030: Small_building_8
+    3300032: Small_building_9
+    4300000: Small_building_17
+    4300002: Small_building_16
+    4300004: Small_building_15
+    4300006: Small_building_14
+    4300008: Small_building_13
+    4300010: Small_building_12
+    4300012: Small_building_11
+    4300014: Small_building_10
+    4300016: Small_building_9
+    4300018: Small_building_8
+    4300020: Small_building_7
+    4300022: Small_building_6
+    4300024: Small_building_5
+    4300026: Small_building_4
+    4300028: Small_building_3
+    4300030: Small_building_2
+    4300032: Small_building_1
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greeble_small_mat
+    second: {fileID: 2100000, guid: b6e919a4664a1cd4f9e024c681099aa0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

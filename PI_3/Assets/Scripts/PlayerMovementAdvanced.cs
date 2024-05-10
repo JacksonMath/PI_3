@@ -6,7 +6,7 @@ using TMPro;
 public class PlayerMovementAdvanced : MonoBehaviour
 {
     [Header("Movement")]
-    private float moveSpeed;
+    public float moveSpeed;
     private float desiredMoveSpeed;
     private float lastDesiredMoveSpeed;
     public float walkSpeed;
@@ -16,6 +16,7 @@ public class PlayerMovementAdvanced : MonoBehaviour
     public float climbSpeed;
     public float vaultSpeed;
     public float airMinSpeed;
+    public bool isJumping = false;
 
     public float speedIncreaseMultiplier;
     public float slopeIncreaseMultiplier;
@@ -59,9 +60,10 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     Vector3 moveDirection;
 
-    Rigidbody rb;
+    public Rigidbody rb;
 
     public MovementState state;
+    public MovementState lastState;
     public enum MovementState
     {
         freeze,
@@ -90,6 +92,20 @@ public class PlayerMovementAdvanced : MonoBehaviour
     public TextMeshProUGUI text_speed;
     public TextMeshProUGUI text_mode;
 
+    //Referencia aos States do personagem (atual e ultimo)
+    public MovementState CurrentState { get; private set; }
+    public MovementState LastState { get; private set; }
+
+    public void SetMovementState(MovementState newState)
+    {
+        // Atualiza o último estado antes de atualizar o estado atual
+        LastState = CurrentState;
+        CurrentState = newState;
+
+        // Adicione aqui qualquer lógica adicional necessária ao atualizar o estado
+    }
+
+
     private void Start()
     {
         climbingScriptDone = GetComponent<ClimbingDone>();
@@ -103,6 +119,8 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     private void Update()
     {
+        lastState = state;
+
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
@@ -344,6 +362,15 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     private void Jump()
     {
+
+        isJumping = true;
+        Invoke("JumpDelay", 0.25f);
+
+    }
+
+    void JumpDelay()
+    {
+        isJumping = false;
         exitingSlope = true;
 
         // reset y velocity
@@ -351,8 +378,11 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
+
     private void ResetJump()
     {
+        isJumping = false;
+
         readyToJump = true;
 
         exitingSlope = false;

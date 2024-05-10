@@ -18,7 +18,7 @@ public class ClimbingDone : MonoBehaviour
     public float climbJumpUpForce = 15f;
     public float climbJumpBackForce = 15f;
 
-    private bool climbing;
+    public bool climbing;
 
     [Header("ClimbJumping")]
     public KeyCode jumpKey = KeyCode.Space;

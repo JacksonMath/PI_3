@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 957a51aafea4c2749b469439af31f0c6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Column_1
+    100002: Column_2
+    100004: Column_3
+    100006: Column_4
+    100008: Column_5
+    100010: Column_6
+    100012: Column_7
+    100014: Column_8
+    100016: //RootNode
+    100018: Medium_building_1
+    100020: Medium_building_2
+    100022: Medium_building_3
+    100024: Medium_building_4
+    100026: Medium_building_5
+    100028: Medium_building_6
+    400000: Column_1
+    400002: Column_2
+    400004: Column_3
+    400006: Column_4
+    400008: Column_5
+    400010: Column_6
+    400012: Column_7
+    400014: Column_8
+    400016: //RootNode
+    400018: Medium_building_1
+    400020: Medium_building_2
+    400022: Medium_building_3
+    400024: Medium_building_4
+    400026: Medium_building_5
+    400028: Medium_building_6
+    2100000: Greeble_medium_mat
+    2300000: Column_1
+    2300002: Column_2
+    2300004: Column_3
+    2300006: Column_4
+    2300008: Column_5
+    2300010: Column_6
+    2300012: Column_7
+    2300014: Column_8
+    2300016: Medium_building_1
+    2300018: Medium_building_2
+    2300020: Medium_building_3
+    2300022: Medium_building_4
+    2300024: Medium_building_5
+    2300026: Medium_building_6
+    3300000: Column_1
+    3300002: Column_2
+    3300004: Column_3
+    3300006: Column_4
+    3300008: Column_5
+    3300010: Column_6
+    3300012: Column_7
+    3300014: Column_8
+    3300016: Medium_building_1
+    3300018: Medium_building_2
+    3300020: Medium_building_3
+    3300022: Medium_building_4
+    3300024: Medium_building_5
+    3300026: Medium_building_6
+    4300000: Column_8
+    4300002: Column_7
+    4300004: Column_6
+    4300006: Column_5
+    4300008: Column_4
+    4300010: Column_3
+    4300012: Column_2
+    4300014: Column_1
+    4300016: Medium_building_6
+    4300018: Medium_building_5
+    4300020: Medium_building_4
+    4300022: Medium_building_3
+    4300024: Medium_building_2
+    4300026: Medium_building_1
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Greeble_medium_mat
+    second: {fileID: 2100000, guid: 2beb0358094b63e459829056a80e37ef, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
