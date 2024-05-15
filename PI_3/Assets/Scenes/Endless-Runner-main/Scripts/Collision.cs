@@ -9,7 +9,7 @@ public class Collision : MonoBehaviour
     {
         if(other.tag == "Obstacle")
         {
-            SceneManager.LoadScene("Main");
+            SceneManager.LoadScene("River_Runner");
         }
     }
 }
