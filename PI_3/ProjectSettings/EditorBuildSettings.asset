@@ -8,13 +8,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Ilha.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/A Ilha.unity
     guid: 54adca198de43f045b32d0123b76549b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/River_Runner.unity
     guid: e8c18fd64ba8e4d4e82d4d87acfa900f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Jump_Scape.unity
     guid: 981c0833db4a718448fadb9a604bcd92
+  - enabled: 1
+    path: Assets/Scenes/Endless-Runner-main/Scenes/Main.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

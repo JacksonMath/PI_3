@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4a898afb8672de948b2015e3ea1e1801
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LixoSound: {instanceID: 0}
+  - particleCollect: {fileID: 100000, guid: d4f5579fb5da2f646a0c2bee91bdf6b5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -28,7 +28,7 @@ Material:
   - _VERTEXCOLORCHANNEL_RGBA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2050
   stringTagMap:
     RenderType: Opaque
@@ -187,7 +187,7 @@ Material:
     - _BumpScale: 1
     - _Contrast: 100
     - _Contrast2: 20.3
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DepositChannel: 1
     - _DepositContrast: 1.8

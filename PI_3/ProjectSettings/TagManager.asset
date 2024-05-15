@@ -7,6 +7,16 @@ TagManager:
   - Ledge
   - Fase 1
   - Fase 2
+  - ScoreText
+  - Obstacle
+  - Lixo
+  - LedgeLimit
+  - Ladder
+  - Stone
+  - Wood
+  - Metal
+  - Sand
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -23,11 +33,11 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Character
+  - Climb
+  - Short Climb
+  - Vault
+  - Wall Run
   - postProcessing
   - dontRender
   - bloom

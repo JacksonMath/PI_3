@@ -24,7 +24,7 @@ public class BoostPad_MLab_Uncommented : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        AddForce(collision.collider);
+        AddForce(collision.GetComponent<Collider>());
     }
 
     private void AddForce(Collider other)
