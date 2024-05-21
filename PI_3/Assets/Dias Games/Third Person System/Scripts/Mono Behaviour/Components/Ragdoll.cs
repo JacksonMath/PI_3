@@ -43,14 +43,14 @@ namespace DiasGames.Components
                 // try get rigidbody component
                 if (bone.TryGetComponent(out Rigidbody rb))
                 {
-                    rb.isKinematic = true; // deactivate physics
+                    //rb.isKinematic = true; // deactivate physics
                     _ragdollRigidbodies.Add(rb);
                 }
                 
                 // try get collider component
                 if (bone.TryGetComponent(out Collider coll))
                 {
-                    coll.enabled = false;
+                    //coll.enabled = false;
                     _ragdollColliders.Add(coll);
                 }
             }

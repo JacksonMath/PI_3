@@ -25,6 +25,32 @@ namespace DiasGames.Components
             OnHealthChanged?.Invoke();
         }
 
+        //Colisão com gás toxico
+        void OnParticleCollision(GameObject smoke)
+        {
+            // Verifica se o objeto colidido é o a fumaça
+            if (smoke.CompareTag("FxTemporaire"))
+            {
+                Debug.Log("Colisão com partícula detectada no personagem!");
+                _currentHP = 0;
+                OnDead?.Invoke();
+                OnCharacterDeath?.Invoke();
+            }
+        }
+
+        //Colisão com a agua
+        void OnTriggerEnter (Collider Water)
+        {
+            // Verifica se o objeto colidido é o a agua
+            if (Water.CompareTag("Water"))
+            {
+                Debug.Log("Colisão com partícula detectada no personagem!");
+                _currentHP = 0;
+                OnDead?.Invoke();
+                OnCharacterDeath?.Invoke();
+            }
+        }
+
         public void Damage(int damagePoints)
         {
             _currentHP -= damagePoints;

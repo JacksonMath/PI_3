@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1975879575520726254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247200bfc45929f41a4b5286135d5029, type: 3}
+  m_Name: SM_Bld_Lift_Wall_01
+  m_EditorClassIdentifier: 
+  _guid:
+    _guidString: 336868e9-d9f1-4fc1-bc1f-33021152000b
+  _pluginPrefab: {fileID: -4477090322187116433, guid: 3059cafc11f95b940b3c04b4905a88f9,
+    type: 2}
+  _preview:
+    _prefabAsset: {fileID: 1245762855502432, guid: 1dc55f6dbc165ca4486ab6bbaa048d5c,
+      type: 3}
+    _texture: {fileID: 0}
+    _yaw: 0
+    _pitch: 0
+  _uiSelected: 1
+  _used: 1
+  _spawnChance: 1
+--- !u!114 &-805307235116646786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247200bfc45929f41a4b5286135d5029, type: 3}
+  m_Name: SM_Bld_Wall_Corner_Pillar_01
+  m_EditorClassIdentifier: 
+  _guid:
+    _guidString: 4461a109-ed61-4ad4-b09f-c15918cfea08
+  _pluginPrefab: {fileID: 4031216205759798470, guid: 3059cafc11f95b940b3c04b4905a88f9,
+    type: 2}
+  _preview:
+    _prefabAsset: {fileID: 1839242088426794, guid: 7eecc3884fdf1a54796bc19d450d5ec3,
+      type: 3}
+    _texture: {fileID: 0}
+    _yaw: 0
+    _pitch: 0
+  _uiSelected: 0
+  _used: 1
+  _spawnChance: 1
+--- !u!114 &-223692977754842902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247200bfc45929f41a4b5286135d5029, type: 3}
+  m_Name: SM_Bld_Wall_Corner_Pillar_01
+  m_EditorClassIdentifier: 
+  _guid:
+    _guidString: b5e6133b-5efe-4e71-9f53-d84b4bf09ebe
+  _pluginPrefab: {fileID: 4031216205759798470, guid: 3059cafc11f95b940b3c04b4905a88f9,
+    type: 2}
+  _preview:
+    _prefabAsset: {fileID: 1839242088426794, guid: 7eecc3884fdf1a54796bc19d450d5ec3,
+      type: 3}
+    _texture: {fileID: 0}
+    _yaw: 0
+    _pitch: 0
+  _uiSelected: 0
+  _used: 1
+  _spawnChance: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8eb84aa7564a314baba325992456a32, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: 
+  _profileName: Default
+  _examplePrefab: {fileID: 3803741129088424943, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_InnerCorner: {fileID: 6959125987119996296, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_OuterCorner: {fileID: 2951065108010454003, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_MidStraight: {fileID: 815899773865911154, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_FirstStraight: {fileID: 1226395867422899687, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_LastStraight: {fileID: 2397779406120667287, guid: 06212084e54553d47bdd5294ed4ce694,
+    type: 3}
+  _ep_PillarInnerCornerBegin: {fileID: 0}
+  _ep_PillarInnerCornerEnd: {fileID: 0}
+  _ep_PillarOuterCornerBegin: {fileID: 0}
+  _ep_PillarOuterCornerEnd: {fileID: 0}
+  _wallProperties:
+    upAxis: 1
+    forwardAxis: 2
+    invertForwardAxis: 1
+    innerAxis: 0
+    invertInnerAxis: 1
+    height: 4.9954405
+    forwardSize: 0.914812
+  _truncateForwardSize: 0
+  _spawnPillars: 0
+  _pillarProfileName: Default
+  _innerCornerRT:
+    position: {x: -1.9753577, y: -1.5022855, z: 0.6475423}
+    rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+  _outerCornerRT:
+    position: {x: 1.5608716, y: -1.5022798, z: -0.6468698}
+    rotation: {x: -0, y: 0.9238796, z: 0, w: 0.38268346}
+  _straightRT:
+    position: {x: 2.5, y: -1.5022798, z: -0.29259396}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarMidStraightBeginRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarMidStraightEndRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarInnerCornerBeginRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarInnerCornerEndRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarOuterCornerBeginRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _pillarOuterCornerEndRT:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  _straight_ForwardPushDistance_Inner: 1.2925625
+  _straight_InnerPushDistance_Inner: 1.2945275
+  _straight_ForwardPushDistance_Outer: 1.8777819
+  _straight_InnerPushDistance_Outer: 1.8777823
+  _straightWallPrefabs:
+  - {fileID: -1975879575520726254}
+  _innerCornerPrefabs:
+  - {fileID: -223692977754842902}
+  _outerCornerPrefabs:
+  - {fileID: -805307235116646786}

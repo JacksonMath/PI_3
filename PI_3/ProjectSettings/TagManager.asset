@@ -17,6 +17,8 @@ TagManager:
   - Metal
   - Sand
   - Enemy
+  - FxTemporaire
+  - Water
   layers:
   - Default
   - TransparentFX
