@@ -178,7 +178,7 @@ Material:
     - _RimEnabled: 1
     - _RimLightAlign: 0.9
     - _RimLightSmoothness: 0.05
-    - _RimPower: 0.6
+    - _RimPower: 0.22
     - _SizeFalloff: 0
     - _Smoothness: 0.2
     - _SmoothnessTextureChannel: 0

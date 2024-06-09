@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedItems:
     _serializedList:
-    - _guidString: b484d62c-2b78-4684-bc67-78a2257239fa
+    - _guidString: 61238181-0289-47d5-864e-665c8e1c53c4
   collapsedItems:
     _serializedList:
     - _guidString: 066f6450-e03d-44a3-85b0-4e4048c602f6
@@ -23,12 +23,12 @@ MonoBehaviour:
     - _guidString: 3e84bdae-a186-425b-8378-2b8f38eb6b82
     - _guidString: 4caa8d8e-ecce-4377-a522-bbf137f3ea3b
   selectRangeBeginId:
-    _guidString: b484d62c-2b78-4684-bc67-78a2257239fa
+    _guidString: 61238181-0289-47d5-864e-665c8e1c53c4
   selectRangeEndId:
-    _guidString: b484d62c-2b78-4684-bc67-78a2257239fa
+    _guidString: 61238181-0289-47d5-864e-665c8e1c53c4
   hasSelectRange: 1
-  scrollOffset: {x: 0, y: 0}
-  vertScrollHighValue: 8
+  scrollOffset: {x: 0, y: 225.6}
+  vertScrollHighValue: NaN
   vertScrollLowValue: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -46,7 +46,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3059cafc11f95b940b3c04b4905a88f9, type: 2}
   - {fileID: 11400000, guid: 78568d9208f0b7f4c827b77baa42fcbd, type: 2}
   - {fileID: 11400000, guid: 516987468c833d9489c02956c57aaae9, type: 2}
-  _activeProfile: {fileID: 11400000, guid: 516987468c833d9489c02956c57aaae9, type: 2}
+  _activeProfile: {fileID: 11400000, guid: 3059cafc11f95b940b3c04b4905a88f9, type: 2}
   _prefabCreationSettingsUI: {fileID: 11400000, guid: eae817f9990222849b7d55f1ba43094e,
     type: 2}
   _objectGroupCreationSettingsUI: {fileID: 0}
@@ -63,12 +63,13 @@ MonoBehaviour:
   m_Name: PluginPrefabManagerUI_PrefabViewState
   m_EditorClassIdentifier: 
   selectedItems:
-    _serializedList: []
+    _serializedList:
+    - _guidString: 81ee23b9-b9d2-442d-b3a1-0ce4473dcdae
   selectRangeBeginId:
-    _guidString: fa09ea69-7788-43cd-b94c-018ad5ad731b
+    _guidString: 81ee23b9-b9d2-442d-b3a1-0ce4473dcdae
   selectRangeEndId:
-    _guidString: fa09ea69-7788-43cd-b94c-018ad5ad731b
-  hasSelectRange: 0
-  scrollOffset: {x: 0, y: 15384.799}
+    _guidString: 81ee23b9-b9d2-442d-b3a1-0ce4473dcdae
+  hasSelectRange: 1
+  scrollOffset: {x: 0, y: 44.80002}
   vertScrollHighValue: NaN
   vertScrollLowValue: 0
