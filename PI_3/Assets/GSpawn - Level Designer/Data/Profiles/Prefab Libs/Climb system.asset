@@ -59,7 +59,7 @@ MonoBehaviour:
   - {fileID: -4850118164582081011}
   - {fileID: -3259068674916360408}
   - {fileID: 6614203984313799908}
-  _uiSelected: 1
+  _uiSelected: 0
 --- !u!114 &-5036153578054665308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 185442929049980784}
   - {fileID: -1234063689488257239}
-  _uiSelected: 0
+  _uiSelected: 1
 --- !u!114 &-4850118164582081011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,13 +319,13 @@ MonoBehaviour:
     _serializedKeys: []
     _serializedValues: []
   _spawnGuideTransformTRS:
-    _position: {x: 40.04, y: 8.73, z: -0.5}
-    _rotation: {x: -0, y: 1, z: -0, w: 0.0000029504295}
-    _scale: {x: 1, y: 1, z: 1}
-  _modularSnapVerticalStep: 0
+    _position: {x: 32.642464, y: 35.406124, z: -36.10789}
+    _rotation: {x: -0, y: 0.7071089, z: -0, w: -0.70710474}
+    _scale: {x: 1.0000002, y: 1, z: 1.0000002}
+  _modularSnapVerticalStep: 35
   _surfaceSnapAppliedOffsetFromSurface: 0
   _modelSize: {x: 4, y: 2, z: 0.550003}
-  _uiSelected: 0
+  _uiSelected: 1
 --- !u!114 &750478669937985058
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ MonoBehaviour:
   _gridCellSize: {x: 1, y: 1, z: 1}
   _cornerMode: 0
   _cornerGapSize: 1
-  _objectSkipChance: 0
+  _objectSkipChance: 0.01
   _horizontalPadding: 0
   _verticalPadding: 0
   _volumelessObjectSize: 1

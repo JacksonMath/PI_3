@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Jump_Scape.unity
     guid: 981c0833db4a718448fadb9a604bcd92
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/River_Runner.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Jump_Scape_Teste.unity
+    guid: 7e03f3ef235d78b4cbefc22707b8fba8
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f8f66668c54ca5745863b915177c1bfc,
       type: 2}
