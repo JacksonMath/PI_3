@@ -7,6 +7,17 @@ public class Score : MonoBehaviour
 {
     public int ScoreInt;
     public TextMeshProUGUI ScoreText;
+    public GameObject targetObject;  // Referência ao objeto que deseja tornar visível
+    public int visibilityThreshold = 5;  // Número desejado para tornar o objeto visível
+
+    void Start()
+    {
+        // Inicialmente, o objeto deve estar invisível
+        if (targetObject != null)
+        {
+            targetObject.SetActive(false);
+        }
+    }
 
     public void ScorePlusOne()
     {
@@ -16,9 +27,17 @@ public class Score : MonoBehaviour
     private void Update()
     {
         ScoreText.text = ScoreInt.ToString();
-        if (ScoreInt >= 5)
+
+        // Verifique se o ScoreInt atingiu o valor desejado
+        if (ScoreInt >= visibilityThreshold)
         {
             GlobalVariables.highScore = true;
+
+            // Torne o objeto visível
+            if (targetObject != null)
+            {
+                targetObject.SetActive(true);
+            }
         }
     }
 }
