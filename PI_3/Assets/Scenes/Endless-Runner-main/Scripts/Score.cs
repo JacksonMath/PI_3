@@ -1,12 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    private int ScoreInt;
+    public int ScoreInt;
     public TextMeshProUGUI ScoreText;
 
     public void ScorePlusOne()
@@ -17,5 +16,9 @@ public class Score : MonoBehaviour
     private void Update()
     {
         ScoreText.text = ScoreInt.ToString();
+        if (ScoreInt >= 5)
+        {
+            GlobalVariables.highScore = true;
+        }
     }
 }
