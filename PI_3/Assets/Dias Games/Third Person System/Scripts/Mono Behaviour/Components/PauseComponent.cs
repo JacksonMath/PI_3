@@ -13,6 +13,7 @@ namespace DiasGames.Components
 
         private void Start()
         {
+            Time.timeScale = 1;
             visible = Cursor.visible;
             lockMode = Cursor.lockState;
         }
