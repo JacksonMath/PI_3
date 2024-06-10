@@ -12,11 +12,11 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _EMISSION
   - _HALFTONESHAPE_DOT
   - _NORMALMAP
   - _OCCLUSIONMAP
   - _OUTLINE
+  - _TOON_SHADING_ON
   m_InvalidKeywords:
   - _PARALLAXMAP
   m_LightmapFlags: 6
@@ -198,7 +198,7 @@ Material:
     - _StepViaRampTexture: 0
     - _Surface: 0
     - _ToonBlending: 1
-    - _ToonEnabled: 0
+    - _ToonEnabled: 1
     - _UVSec: 0
     - _UseRampColor: 0
     - _WorkflowMode: 1

@@ -1,33 +1,45 @@
+using DiasGames;
+using DiasGames.Controller;
+using DiasGames.Mobile;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
+
 {
+    public GameObject SceneChave;
+    public GameObject SceneVara;
+
+    public mudarMapa mudar;
+
     // Tecla configurável para transição de cena
-    public KeyCode transitionKey = KeyCode.E;
+    //public KeyCode transitionKey = KeyCode.E;
 
     // Variáveis booleanas para controlar as fases
     public bool fase1Ativa = false;
     public bool fase2Ativa = false;
 
     // Tempo de transição configurável
-    public float tempoTransicao = 2.0f;
+    public float tempoTransicao = 4.0f;
 
     void Update()
     {
         // Verifica se a tecla de transição foi pressionada
-        if (Input.GetKeyDown(transitionKey))
+        if (mudar.Interact)
         {
             if (fase1Ativa)
             {
+                SceneChave.gameObject.SetActive(true);
                 Debug.Log("Transição para Fase 1");
                 StartCoroutine(MudarCenaComDelay("River_Runner"));
             }
             else if (fase2Ativa)
             {
+                SceneVara.gameObject.SetActive(true);
                 Debug.Log("Transição para Fase 2");
-                StartCoroutine(MudarCenaComDelay("Jump_Scape"));
+                StartCoroutine(MudarCenaComDelay("Jump_Scape_Teste"));
             }
             else
             {
