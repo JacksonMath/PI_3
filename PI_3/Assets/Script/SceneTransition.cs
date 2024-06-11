@@ -14,25 +14,57 @@ public class SceneTransition : MonoBehaviour
     // Tempo de transição configurável
     public float tempoTransicao = 2.0f;
 
+    // Input System
+#if ENABLE_INPUT_SYSTEM
+    private PlayerInputActions inputActions;
+
+    private void Awake()
+    {
+        inputActions = new PlayerInputActions();
+    }
+
+    private void OnEnable()
+    {
+        inputActions.Enable();
+        inputActions.Player.Interact.performed += OnInteract;
+    }
+
+    private void OnDisable()
+    {
+        inputActions.Player.Interact.performed -= OnInteract;
+        inputActions.Disable();
+    }
+
+    private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    {
+        HandleInteraction();
+    }
+#endif
+
     void Update()
     {
         // Verifica se a tecla de transição foi pressionada
         if (Input.GetKeyDown(transitionKey))
         {
-            if (fase1Ativa)
-            {
-                Debug.Log("Transição para Fase 1");
-                StartCoroutine(MudarCenaComDelay("River_Runner"));
-            }
-            else if (fase2Ativa)
-            {
-                Debug.Log("Transição para Fase 2");
-                StartCoroutine(MudarCenaComDelay("Jump_Scape"));
-            }
-            else
-            {
-                Debug.Log("Nenhuma fase ativa.");
-            }
+            HandleInteraction();
+        }
+    }
+
+    private void HandleInteraction()
+    {
+        if (fase1Ativa)
+        {
+            Debug.Log("Transição para Fase 1");
+            StartCoroutine(MudarCenaComDelay("River_Runner"));
+        }
+        else if (fase2Ativa)
+        {
+            Debug.Log("Transição para Fase 2");
+            StartCoroutine(MudarCenaComDelay("Jump_Scape"));
+        }
+        else
+        {
+            Debug.Log("Nenhuma fase ativa.");
         }
     }
 
