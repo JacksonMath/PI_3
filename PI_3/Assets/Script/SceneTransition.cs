@@ -1,70 +1,50 @@
+using DiasGames;
+using DiasGames.Controller;
+using DiasGames.Mobile;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
+
 {
+    public GameObject SceneChave;
+    public GameObject SceneVara;
+
+    public mudarMapa mudar;
+
     // Tecla configurável para transição de cena
-    public KeyCode transitionKey = KeyCode.E;
+    //public KeyCode transitionKey = KeyCode.E;
 
     // Variáveis booleanas para controlar as fases
     public bool fase1Ativa = false;
     public bool fase2Ativa = false;
 
     // Tempo de transição configurável
-    public float tempoTransicao = 2.0f;
-
-    // Input System
-#if ENABLE_INPUT_SYSTEM
-    private PlayerInputActions inputActions;
-
-    private void Awake()
-    {
-        inputActions = new PlayerInputActions();
-    }
-
-    private void OnEnable()
-    {
-        inputActions.Enable();
-        inputActions.Player.Interact.performed += OnInteract;
-    }
-
-    private void OnDisable()
-    {
-        inputActions.Player.Interact.performed -= OnInteract;
-        inputActions.Disable();
-    }
-
-    private void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext context)
-    {
-        HandleInteraction();
-    }
-#endif
+    public float tempoTransicao = 4.0f;
 
     void Update()
     {
         // Verifica se a tecla de transição foi pressionada
-        if (Input.GetKeyDown(transitionKey))
+        if (mudar.Interact)
         {
-            HandleInteraction();
-        }
-    }
-
-    private void HandleInteraction()
-    {
-        if (fase1Ativa)
-        {
-            Debug.Log("Transição para Fase 1");
-            StartCoroutine(MudarCenaComDelay("River_Runner"));
-        }
-        else if (fase2Ativa)
-        {
-            Debug.Log("Transição para Fase 2");
-            StartCoroutine(MudarCenaComDelay("Jump_Scape"));
-        }
-        else
-        {
-            Debug.Log("Nenhuma fase ativa.");
+            if (fase1Ativa)
+            {
+                SceneChave.gameObject.SetActive(true);
+                Debug.Log("Transição para Fase 1");
+                StartCoroutine(MudarCenaComDelay("River_Runner"));
+            }
+            else if (fase2Ativa)
+            {
+                SceneVara.gameObject.SetActive(true);
+                Debug.Log("Transição para Fase 2");
+                StartCoroutine(MudarCenaComDelay("Jump_Scape_Teste"));
+            }
+            else
+            {
+                Debug.Log("Nenhuma fase ativa.");
+            }
         }
     }
 
